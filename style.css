@@ -311,7 +311,7 @@ body.about header {
   background-color: #acdae2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 320px) {
   header {
     display: flex;
     flex-direction: column;
