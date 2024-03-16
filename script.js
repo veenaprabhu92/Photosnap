@@ -39,6 +39,5 @@
       navLinks.forEach(function (link) {
         link.style.color = "#fff";
       });
-            document.querySelector(".logo a").style.color = "white";
     }
   }
