@@ -269,6 +269,8 @@ container */
   cursor: pointer;
   font-weight: 600;
   text-align: center;
+    transition: transform 0.3s ease-in-out;
+
 }
 .contact-column button:hover {
   transform: scale(1.2);
