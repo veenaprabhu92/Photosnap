@@ -32,14 +32,14 @@
       navLinks.forEach(function (link) {
         link.style.color = "crimson";
       });
-            document.querySelector(".logo a").style.color = "darkblue";
+            document.querySelector(".logo a").style.color = "white";
     } else {
       header.style.backgroundColor = "transparent";
       header.style.color = "white";
       navLinks.forEach(function (link) {
         link.style.color = "#fff";
       });
-            document.querySelector(".logo a").style.color = "white";
+            document.querySelector(".logo a").style.color = "darkblue";
 
     }
   }
