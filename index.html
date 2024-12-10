@@ -8,7 +8,9 @@
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css" />
-
+ <link rel="preload" as="image" href="images/slide_img1.jpg" />
+  <link rel="preload" as="image" href="images/slide_img2.jpg" />
+  <link rel="preload" as="image" href="images/slide_img3.jpg" />
   <style></style>
   <title>PhotoSnap</title>
 </head>
@@ -39,7 +41,7 @@
       <div class="swiper-wrapper">
         <!-- Slide 1 -->
         <div class="swiper-slide">
-          <img src="images/slide_img1.jpg" alt="Slide 1" class="slide-image" />
+          <img src="images/slide_img1.jpg" loading="lazy" alt="Slide 1" class="slide-image" />
           <div class="slide-content">
             <h2>Unique Moments</h2>
             <p>
@@ -52,7 +54,7 @@
 
         <!-- Slide 2 -->
         <div class="swiper-slide">
-          <img src="images/slide_img2.jpg" alt="Slide 2" class="slide-image" />
+          <img src="images/slide_img2.jpg" alt="Slide 2" loading="lazy" class="slide-image" />
           <div class="slide-content">
             <h2>Creative Photography Studio</h2>
             <p>
@@ -65,7 +67,7 @@
 
         <!-- Slide 3 -->
         <div class="swiper-slide">
-          <img src="images/slide_img3.jpg" alt="Slide 3" class="slide-image" />
+          <img src="images/slide_img3.jpg" alt="Slide 3"  loading="lazy" class="slide-image" />
           <div class="slide-content">
             <h2>Emotions and Happiness</h2>
             <p>Through the lens, we weave a tapestry of emotions, capturing the happiness that dances in the eyes and
@@ -103,52 +105,52 @@
     <div class="gallery" id="Gallery">
       <div class="gallery-column">
         <div class="gallery-item">
-          <img src="images/image1.jpg" alt="Image 1" />
+          <img src="images/image1.jpg" alt="Image 1"  loading="lazy"/>
           <div class="description">Party</div>
         </div>
         <div class="gallery-item">
-          <img src="images/image2.jpg" alt="Image 2" />
+          <img src="images/image2.jpg" alt="Image 2" loading="lazy" />
           <div class="description">DJ and Music</div>
         </div>
         <div class="gallery-item">
-          <img src="images/image5.jpg" alt="Image 3" />
+          <img src="images/image5.jpg" alt="Image 3"  loading="lazy"/>
           <div class="description">Family Pics</div>
         </div>
       </div>
 
       <div class="gallery-column">
         <div class="gallery-item">
-          <img src="images/image4.jpg" alt="Image 4" />
+          <img src="images/image4.jpg" alt="Image 4" loading="lazy" />
           <div class="description">Special Clicks</div>
         </div>
         <div class="gallery-item">
-          <img src="images/image3.jpg" alt="Image 5" />
+          <img src="images/image3.jpg" alt="Image 5" loading="lazy" />
           <div class="description">Cakes</div>
         </div>
       </div>
 
       <div class="gallery-column">
         <div class="gallery-item">
-          <img src="images/image5.jpg" alt="Image 6" />
+          <img src="images/image5.jpg" alt="Image 6" loading="lazy" />
           <div class="description">Moments</div>
         </div>
         <div class="gallery-item">
-          <img src="images/image7.jpg" alt="Image 7" />
+          <img src="images/image7.jpg" alt="Image 7" loading="lazy" />
           <div class="description">Culture</div>
         </div>
         <div class="gallery-item">
-          <img src="images/image8.jpg" alt="Image 8" />
+          <img src="images/image8.jpg" alt="Image 8" loading="lazy" />
           <div class="description">Smile</div>
         </div>
       </div>
 
       <div class="gallery-column">
         <div class="gallery-item">
-          <img src="images/image6.jpg" alt="Image 9" />
+          <img src="images/image6.jpg" alt="Image 9"  loading="lazy"/>
           <div class="description">Fun</div>
         </div>
         <div class="gallery-item">
-          <img src="images/image10.jpg" alt="Image 9" />
+          <img src="images/image10.jpg" alt="Image 9" loading="lazy"/>
           <div class="description">Adorable Clicks</div>
         </div>
       </div>
@@ -171,7 +173,7 @@
 
     <div class="blog-container" id="Services">
       <div class="blog-item">
-        <img src="images/wedding.jpg" alt="Image 1" />
+        <img src="images/wedding.jpg" alt="Image 1" loading="lazy" />
         <h2>Lovely Wedding</h2>
         <p>JANUARY 16, 2024</p>
         <p>
@@ -182,7 +184,7 @@
       </div>
 
       <div class="blog-item">
-        <img src="images/dress.jpg" alt="Image 2" />
+        <img src="images/dress.jpg" alt="Image 2" loading="lazy" />
         <h2>New Dress Collection</h2>
         <p>JANUARY 15, 2024</p>
         <p>
@@ -193,7 +195,7 @@
       </div>
 
       <div class="blog-item">
-        <img src="images/family.jpg" alt="Image 3" />
+        <img src="images/family.jpg" alt="Image 3" loading="lazy" />
         <h2>Family Moments</h2>
         <p>JANUARY 15, 2024</p>
         <p>
@@ -219,13 +221,13 @@
   </section>
   <section class="gallery-footer-section">
     <div class="gallery-footer">
-      <img src="images/slide_img1.jpg" alt="Image 1" />
-      <img src="images/image7.jpg" alt="Image 2" />
-      <img src="images/slide_img3.jpg" alt="Image 3" />
-      <img src="images/image3.jpg" alt="Image 1" />
-      <img src="images/image1.jpg" alt="Image 2" />
-      <img src="images/image4.jpg" alt="Image 3" />
-      <img src="images/image6.jpg" alt="Image 3" />
+      <img src="images/slide_img1.jpg" alt="Image 1" loading="lazy" />
+      <img src="images/image7.jpg" alt="Image 2"  loading="lazy"/>
+      <img src="images/slide_img3.jpg" alt="Image 3" loading="lazy"/>
+      <img src="images/image3.jpg" alt="Image 1" loading="lazy"/>
+      <img src="images/image1.jpg" alt="Image 2" loading="lazy"/>
+      <img src="images/image4.jpg" alt="Image 3" loading="lazy"/>
+      <img src="images/image6.jpg" alt="Image 3" loading="lazy"/>
     </div>
   </section>
   <!-- Footer -->
